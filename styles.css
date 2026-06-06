@@ -5,11 +5,11 @@
   --panel-strong: #ffffff;
   --text: #152332;
   --muted: #5d6a78;
-  --navy: #11253d;
-  --blue: #355a86;
-  --green: #c39a46;
-  --gold: #d7b36a;
-  --line: rgba(21, 35, 50, 0.09);
+  --navy: #0f2140;
+  --blue: #1a3a6b;
+  --green: #c8e648;
+  --gold: #c8e648;
+  --line: rgba(15, 33, 64, 0.09);
   --shadow: 0 22px 54px rgba(19, 31, 43, 0.11);
 }
 
@@ -242,16 +242,16 @@ h1 {
 .button--primary {
   color: #fff;
   background: var(--navy);
-  box-shadow: 0 4px 12px rgba(17, 37, 61, 0.15);
+  box-shadow: 0 4px 12px rgba(15, 33, 64, 0.2);
 }
 
 .button--primary:hover {
-  box-shadow: 0 10px 24px rgba(17, 37, 61, 0.24);
-  background: #0e1e32;
+  box-shadow: 0 10px 24px rgba(15, 33, 64, 0.32);
+  background: #0a1830;
 }
 
 .button--primary:active {
-  box-shadow: 0 2px 6px rgba(17, 37, 61, 0.12);
+  box-shadow: 0 2px 6px rgba(15, 33, 64, 0.14);
 }
 
 .button--ghost {
@@ -381,7 +381,7 @@ h1 {
 
 .service-card:hover {
   background: #ffffff;
-  box-shadow: 0 12px 28px rgba(17, 37, 61, 0.12);
+  box-shadow: 0 12px 28px rgba(15, 33, 64, 0.12);
 }
 
 .service-card:hover,
@@ -405,8 +405,8 @@ h1 {
 
 .service-card:hover .card-icon {
   transform: scale(1.1) rotate(5deg);
-  background: var(--gold);
-  color: #fff;
+  background: var(--green);
+  color: var(--navy);
 }
 
 .service-card h3 {
@@ -448,7 +448,7 @@ h1 {
 }
 
 .portfolio-card--accent-three {
-  background: var(--gold);
+  background: var(--green);
   color: var(--navy);
 }
 
@@ -499,6 +499,10 @@ h1 {
   margin: 0;
   color: rgba(255, 255, 255, 0.9);
   line-height: 1.75;
+}
+
+.portfolio-card--accent-three p {
+  color: rgba(15, 33, 64, 0.8);
 }
 
 .about-grid {
@@ -567,7 +571,7 @@ h1 {
 
 .contact-card:hover {
   background: #ffffff;
-  box-shadow: 0 8px 20px rgba(17, 37, 61, 0.1);
+  box-shadow: 0 8px 20px rgba(15, 33, 64, 0.1);
 }
 
 .contact-card strong {
@@ -578,7 +582,7 @@ h1 {
 }
 
 .contact-card:hover strong {
-  color: var(--gold);
+  color: var(--green);
 }
 
 .footer {
